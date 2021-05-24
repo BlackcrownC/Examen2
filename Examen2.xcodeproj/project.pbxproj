@@ -14,6 +14,10 @@
 		38CCE2DA265C148A00FA03C3 /* Examen2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38CCE2D8265C148A00FA03C3 /* Examen2.xcdatamodeld */; };
 		38CCE2DC265C148B00FA03C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38CCE2DB265C148B00FA03C3 /* Assets.xcassets */; };
 		38CCE2DF265C148B00FA03C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38CCE2DD265C148B00FA03C3 /* LaunchScreen.storyboard */; };
+		38CCE2E8265C172700FA03C3 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCE2E7265C172700FA03C3 /* Genre.swift */; };
+		38CCE2EA265C173200FA03C3 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCE2E9265C173200FA03C3 /* Film.swift */; };
+		38CCE2ED265C181400FA03C3 /* FilmDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCE2EC265C181400FA03C3 /* FilmDAO.swift */; };
+		38CCE2EF265C32BC00FA03C3 /* FilmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CCE2EE265C32BC00FA03C3 /* FilmDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		38CCE2DB265C148B00FA03C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38CCE2DE265C148B00FA03C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38CCE2E0265C148B00FA03C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38CCE2E7265C172700FA03C3 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		38CCE2E9265C173200FA03C3 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		38CCE2EC265C181400FA03C3 /* FilmDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDAO.swift; sourceTree = "<group>"; };
+		38CCE2EE265C32BC00FA03C3 /* FilmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,8 @@
 		38CCE2CE265C148A00FA03C3 /* Examen2 */ = {
 			isa = PBXGroup;
 			children = (
+				38CCE2EB265C17E400FA03C3 /* DAO */,
+				38CCE2E6265C170500FA03C3 /* Model */,
 				38CCE2CF265C148A00FA03C3 /* AppDelegate.swift */,
 				38CCE2D1265C148A00FA03C3 /* SceneDelegate.swift */,
 				38CCE2D3265C148A00FA03C3 /* ViewController.swift */,
@@ -66,8 +76,26 @@
 				38CCE2DD265C148B00FA03C3 /* LaunchScreen.storyboard */,
 				38CCE2E0265C148B00FA03C3 /* Info.plist */,
 				38CCE2D8265C148A00FA03C3 /* Examen2.xcdatamodeld */,
+				38CCE2EE265C32BC00FA03C3 /* FilmDetailViewController.swift */,
 			);
 			path = Examen2;
+			sourceTree = "<group>";
+		};
+		38CCE2E6265C170500FA03C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38CCE2E7265C172700FA03C3 /* Genre.swift */,
+				38CCE2E9265C173200FA03C3 /* Film.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38CCE2EB265C17E400FA03C3 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				38CCE2EC265C181400FA03C3 /* FilmDAO.swift */,
+			);
+			path = DAO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				38CCE2DA265C148A00FA03C3 /* Examen2.xcdatamodeld in Sources */,
+				38CCE2EA265C173200FA03C3 /* Film.swift in Sources */,
 				38CCE2D4265C148A00FA03C3 /* ViewController.swift in Sources */,
+				38CCE2EF265C32BC00FA03C3 /* FilmDetailViewController.swift in Sources */,
 				38CCE2D0265C148A00FA03C3 /* AppDelegate.swift in Sources */,
+				38CCE2ED265C181400FA03C3 /* FilmDAO.swift in Sources */,
 				38CCE2D2265C148A00FA03C3 /* SceneDelegate.swift in Sources */,
+				38CCE2E8265C172700FA03C3 /* Genre.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
